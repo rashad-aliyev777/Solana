@@ -1,0 +1,95 @@
+@import url(./reset.css);
+
+:root {
+    --ag-reng:#fff;
+    --qara-reng:#000;
+    --boz-reng:#aaa;
+    --solana-reng: #7521b9;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0,0,0,.6);
+    padding: 13px 20px;
+}
+.header_sol {
+    cursor: pointer;
+}
+.header_sag a,i {
+    font-size: 18px;
+    color: var(--boz-reng);
+    transition: all 0.5s ease;
+    margin: 5px;
+}
+.header_sag a:hover {
+    color: var(--ag-reng);
+}
+.header_sag i:hover {
+    color: var(--solana-reng);
+}
+.section_bir {
+    background-image: url(../images/section_bir/solana.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.section_birde_orta_yazi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 70vh;
+}
+.section_birde_orta_yazi h2 {
+    color: var(--ag-reng);
+    font-size: 70px;
+    font-weight: 400px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.section_birde_orta_yazi p {
+    color: var(--ag-reng);
+    font-size: 21px;
+    font-weight: 400px;
+    margin: 20px;
+    letter-spacing: 3px;
+}
+.section_bir_button {
+    border-radius: 36px;
+    border: 1px solid #000;
+    background: var(--S-button, linear-gradient(99deg, #8C01FA -2.99%, #000 102.28%));
+    display: inline-flex;
+    padding: 16px 33px;
+    align-items: flex-start;
+    gap: 10px;
+    color: var(--ag-reng);
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.9s ease;
+}
+.section_bir_button:hover {
+    transform: scale(0.8);
+}
+.section_bir_button_iki {
+    border-radius: 36px;
+    border: 1px solid var(--ag-reng);
+    background: var(--qara-reng);
+    display: inline-flex;
+    padding: 16px 33px;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 15px;
+    color: var(--ag-reng);
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.9s ease;
+}
+.section_bir_button_iki:hover {
+    transform: scale(0.8);
+}
