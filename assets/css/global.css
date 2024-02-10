@@ -5,6 +5,7 @@
     --qara-reng:#000;
     --boz-reng:#aaa;
     --solana-reng: #7521b9;
+    --aciq-yasil-reng:rgb(44, 204, 169);
 }
 .header {
     display: flex;
@@ -74,6 +75,7 @@
 }
 .section_bir_button:hover {
     transform: scale(0.8);
+    box-shadow: 0 0 30px 5px var(--ag-reng);
 }
 .section_bir_button_iki {
     border-radius: 36px;
@@ -92,4 +94,18 @@
 }
 .section_bir_button_iki:hover {
     transform: scale(0.8);
+    box-shadow: 0 0 30px 5px var(--ag-reng);
+}
+
+/* section iki */
+
+.ikinci_top_div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.top_divi_sag {
+    display: flex;
+    flex-direction: column;
 }
